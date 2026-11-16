@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on Erdenet Mining Corporation
+- 🔭 I’m currently working on Erdenet Institute of Technology
 - 🌱 I’m currently learning
   - Team working
   - Writing
@@ -20,3 +20,5 @@
   - Dotnet
   - Database administrator
   - Linux
+  - Centralized identity provider
+  - System architecture
