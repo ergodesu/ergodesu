@@ -1,126 +1,136 @@
 <!--
-  ERGODESU / GLASS PROFILE
-  Design language: midnight navy #06151E, electric cyan #00DDEB,
-  teal #008EA9, deep teal #006780, icy white #EFF6FE, soft cyan #53E7F3.
-  The glass effect is pre-rendered in assets/ergodesu-glass.svg because
-  GitHub strips CSS and inline SVG from README content.
+  ERGODESU / MOTION EDITION
+  Colors: #00DDEB #008EA9 #006780 #EFF6FE #06151E #53E7F3
+  Place this file at ergodesu/ergodesu/README.md
+  Keep assets/ergodesu-motion.gif next to it.
+  GIF animation renders on GitHub and does not require JavaScript or external hosting.
 -->
 
 <div align="center">
-  <img src="./assets/ergodesu-glass.svg" alt="ERGODESU — Engineering the invisible. Cyan glassmorphism developer dashboard with an illuminated terminal." width="100%" />
-
+  <img src="./assets/ergodesu-motion.gif" width="100%" alt="Animated ERGODESU glassmorphism terminal: cyan scanning light, orbiting particle, pulsing system status and typing cursor." />
   <br/>
-  <sub>DEVELOPER BY TITLE &nbsp; · &nbsp; SYSTEMS ENGINEER BY INSTINCT &nbsp; · &nbsp; BUILDER BY CHOICE</sub>
-
+  <sub>ENGINEER BY INSTINCT · BUILDER BY CHOICE · BASED IN MONGOLIA</sub>
   <br/><br/>
-
-  <a href="https://github.com/ergodesu?tab=repositories"><b>Explore repositories</b></a>
-  &nbsp; · &nbsp;
-  <a href="#selected-disciplines"><b>What I build</b></a>
-  &nbsp; · &nbsp;
-  <a href="#engineering-principles"><b>How I think</b></a>
+  <a href="https://github.com/ergodesu?tab=repositories"><b>EXPLORE / WORK</b></a>&nbsp; · &nbsp;
+  <a href="#the-stack"><b>STACK / SYSTEMS</b></a>&nbsp; · &nbsp;
+  <a href="#protocols"><b>PROTOCOLS / DESIGN</b></a>&nbsp; · &nbsp;
+  <a href="#classified"><b>CLASSIFIED / ???</b></a>
 </div>
 
 <br/>
 
 <table>
   <tr>
-    <td width="61%" valign="top">
-      <h3>01 &nbsp; / &nbsp; THE HUMAN SIDE OF THE STACK</h3>
-      <p>Hey, I’m <b>Ergodesu</b> — a developer who likes owning the whole journey, not just the interface.</p>
-      <p>I think in <b>systems</b>: user experience, APIs, identity, databases, infrastructure, observability, and the recovery plan nobody wants to need.</p>
-      <p>My favorite kind of engineering is the kind you don't notice — because it keeps working.</p>
-      <p><sub>Based in Mongolia · Always building · Still learning</sub></p>
+    <td width="58%" valign="top">
+      <h3>HELLO, WORLD<span>_</span></h3>
+      <p>I’m <b>Ergodesu</b>. I build the systems behind the interface — from the first click to the infrastructure that keeps it alive.</p>
+      <p>My playground is where <b>software engineering</b>, <b>identity</b>, <b>security</b>, and <b>operations</b> intersect.</p>
+      <p><sub>Simple on the surface. Intentional underneath.</sub></p>
     </td>
-    <td width="39%" valign="top">
-      <h3>STATUS &nbsp; / &nbsp; CURRENT MODE</h3>
-      <pre lang="text"><code>● SYSTEM ONLINE
-
-$ role
-builder / architect
-
-$ principles
-secure · simple · durable
-
-$ next
-ship something useful_</code></pre>
+    <td width="42%" valign="top">
+      <h3>RUNTIME / PROFILE</h3>
+      <pre><code>const engineer = {
+  id: 'ergodesu',
+  focus: ['build', 'secure',
+          'operate', 'improve'],
+  default: 'keep learning'
+}</code></pre>
     </td>
   </tr>
 </table>
 
-<br/>
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=2700&amp;pause=1100&amp;color=00DDEB&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;repeat=true&amp;width=780&amp;height=48&amp;lines=%3E+Design+for+the+real+world.;%3E+Security+is+architecture.;%3E+Make+failure+recoverable.;%3E+Never+stop+building._" alt="Animated typing slogans about engineering" /></a>
+</div>
 
-### SELECTED DISCIPLINES
+## THE STACK
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>◈ &nbsp; Product engineering</h3>
-      <p>Human-friendly interfaces with the APIs, services and operational foundations to back them up.</p>
-      <p><code>Next.js</code> <code>React</code> <code>Flask</code> <code>.NET</code></p>
+      <h3>◈ &nbsp; 01 / APPLICATIONS</h3>
+      <p>Interfaces, APIs, services, integrations, automation.</p>
+      <p><code>Next.js</code> <code>React</code> <code>Python</code> <code>Flask</code> <code>.NET</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>◇ &nbsp; Identity &amp; trust</h3>
-      <p>Authentication, single sign-on, role boundaries, access lifecycles and security-first defaults.</p>
-      <p><code>Keycloak</code> <code>OIDC</code> <code>OAuth 2.0</code> <code>RBAC</code></p>
+      <h3>⬡ &nbsp; 02 / IDENTITY</h3>
+      <p>SSO, authentication, permissions, access boundaries.</p>
+      <p><code>Keycloak</code> <code>OIDC</code> <code>OAuth2</code> <code>RBAC</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⌘ &nbsp; Infrastructure &amp; reliability</h3>
-      <p>Deployment, reverse proxies, Linux systems, observability, backup strategies and recovery.</p>
-      <p><code>Linux</code> <code>Docker</code> <code>Nginx</code> <code>Git</code></p>
+      <h3>⌘ &nbsp; 03 / INFRASTRUCTURE</h3>
+      <p>Linux, containers, deployment, monitoring, recovery.</p>
+      <p><code>Ubuntu</code> <code>Docker</code> <code>Nginx</code> <code>Git</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>✳ &nbsp; Data &amp; modernization</h3>
-      <p>Giving legacy systems a better future without losing the knowledge they carry.</p>
+      <h3>◇ &nbsp; 04 / DATA & SYSTEMS</h3>
+      <p>Databases, storage, migrations, legacy modernization.</p>
       <p><code>PostgreSQL</code> <code>SQL</code> <code>SeaweedFS</code> <code>Odoo</code></p>
     </td>
   </tr>
 </table>
 
-<br/>
-
-<h3>03 &nbsp; / &nbsp; THE TOOLS, NOT THE IDENTITY</h3>
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,php,nextjs,react,flask,dotnet,postgres,docker,nginx,linux,git&amp;perline=7&amp;theme=dark" width="560" alt="TypeScript, JavaScript, Python, C#, PHP, Next.js, React, Flask, .NET, PostgreSQL, Docker, Nginx, Linux and Git" />
-  <br/>
-  <sub>Frameworks come and go. <b>Design decisions outlive their dependencies.</b></sub>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cs,php,nextjs,react,flask,dotnet,postgres,docker,nginx,linux,git&amp;perline=7&amp;theme=dark" width="555" alt="Technology stack icons" />
+  <br/><sub>Tools change. Engineering principles should survive the upgrade.</sub>
 </div>
 
 <br/>
 
-### ENGINEERING PRINCIPLES
 
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top"><h4>01 / INTENT</h4><p>Understand the problem before choosing the stack.</p></td>
-    <td width="33%" align="center" valign="top"><h4>02 / RESILIENCE</h4><p>Design for failure. Make recovery part of the product.</p></td>
-    <td width="33%" align="center" valign="top"><h4>03 / CLARITY</h4><p>The next maintainer is also a user.</p></td>
-  </tr>
-</table>
+### SIGNAL / RECENT ACTIVITY
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ergodesu&amp;bg_color=06151E&amp;color=EFF6FE&amp;title_color=53E7F3&amp;line=00DDEB&amp;point=53E7F3&amp;area_color=006780&amp;area=true&amp;hide_border=true&amp;radius=12&amp;days=30&amp;custom_title=GITHUB%20SIGNAL" width="100%" alt="Graph of the last 30 days of public GitHub activity" />
+</div>
+
+## PROTOCOLS
+
+| `01` THINK IN SYSTEMS | `02` DEFEND THE EDGES | `03` PLAN TO RECOVER |
+| :--- | :--- | :--- |
+| Architecture is more than a diagram. | Security belongs in the design. | A backup is a promise you must test. |
 
 <details>
-  <summary><b>☰ &nbsp; OFF THE CLOCK</b> &nbsp; <sub>— optional lore</sub></summary>
+<summary><b>⌁ EXPAND / SYSTEM MAP</b></summary>
 
-  <br/>
+```mermaid
+flowchart LR
+    U([User]) --> UI[Experience]
+    UI --> API[Services & APIs]
+    API --> ID[Identity / Policies]
+    API --> DB[(Data / Storage)]
+    API --> OPS[Monitoring / Recovery]
+```
 
-  Some universes I keep returning to: **Interstellar**, **Warhammer 40K**, **Metallica**, **Rammstein**, **Otyken**, and whatever game is currently demanding a few more hours of my life.
+<sub>A simplified philosophy, not an actual production topology.</sub>
+</details>
 
-  ```text
-  $ sudo bless-machine-spirit
-  [ OK ] The Omnissiah has acknowledged your request.
-  [ OK ] Backups are still recommended.
-  ```
+## CLASSIFIED
+
+<details>
+<summary><b>⟡ OPEN / TRANSMISSION</b></summary>
+
+```text
+┌─ TRANSMISSION 40K.001 ──────────────────────┐
+│ source     : ergodesu                       │
+│ clearance  : TECH-ADEPT                     │
+│ objective  : appease the machine spirit     │
+│ status     : backups verified [hopefully]  │
+└─────────────────────────────────────────────┘
+
+> FOR THE EMPEROR.
+> ALSO, WRITE DOCUMENTATION.
+```
+
+Outside the terminal: **Interstellar**, **Warhammer 40K**, **Metallica**, **Rammstein**, **Otyken**, games and cats.
 </details>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/BUILD-00DDEB?style=for-the-badge&amp;labelColor=06151E" alt="BUILD" />
-  <img src="https://img.shields.io/badge/SECURE-008EA9?style=for-the-badge&amp;labelColor=06151E" alt="SECURE" />
-  <img src="https://img.shields.io/badge/EVOLVE-006780?style=for-the-badge&amp;labelColor=06151E" alt="EVOLVE" />
+  <a href="https://github.com/ergodesu?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_REPOS-00DDEB?style=for-the-badge&amp;logo=github&amp;logoColor=06151E&amp;labelColor=06151E" alt="Explore GitHub repositories" /></a>
   <br/><br/>
-  <sub>© Ergodesu · Engineering the invisible.</sub>
+  <sub><b>ERGODESU</b> / Engineering the invisible · Build beyond the demo.</sub>
 </div>
