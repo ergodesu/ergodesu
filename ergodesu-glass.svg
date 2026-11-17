@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-label="ERGODESU — Engineering the invisible. An elegant midnight navy and electric cyan glassmorphism terminal dashboard.">
+  <title>ERGODESU — Engineering the invisible</title>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#041118"/><stop offset=".53" stop-color="#06151E"/><stop offset="1" stop-color="#092733"/></linearGradient>
+    <radialGradient id="a"><stop stop-color="#00DDEB" stop-opacity=".8"/><stop offset=".38" stop-color="#008EA9" stop-opacity=".36"/><stop offset="1" stop-color="#008EA9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b"><stop stop-color="#00A9F7" stop-opacity=".55"/><stop offset=".55" stop-color="#006780" stop-opacity=".18"/><stop offset="1" stop-color="#006780" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EFF6FE" stop-opacity=".19"/><stop offset=".48" stop-color="#53E7F3" stop-opacity=".075"/><stop offset="1" stop-color="#EFF6FE" stop-opacity=".035"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EFF6FE" stop-opacity=".62"/><stop offset=".45" stop-color="#53E7F3" stop-opacity=".19"/><stop offset="1" stop-color="#EFF6FE" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00DDEB"/><stop offset=".55" stop-color="#53E7F3"/><stop offset="1" stop-color="#A4F8FF"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00DDEB" stop-opacity=".65"/><stop offset="1" stop-color="#00DDEB" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#8EF9FC" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000A10" flood-opacity=".58"/></filter>
+    <filter id="softglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="frame"><rect x="4" y="4" width="1192" height="542" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+  <rect width="1200" height="550" fill="url(#canvas)"/>
+  <rect width="1200" height="550" fill="url(#grid)"/>
+  <ellipse cx="1001" cy="95" rx="340" ry="290" fill="url(#a)" filter="url(#blur)"/>
+  <ellipse cx="210" cy="515" rx="440" ry="260" fill="url(#b)" filter="url(#blur)"/>
+  <path d="M-50 375 C 300 285, 530 690, 970 430" fill="none" stroke="#00DDEB" stroke-opacity=".12" stroke-width="1.2"/>
+  <path d="M-50 410 C 300 320, 530 725, 970 465" fill="none" stroke="#00DDEB" stroke-opacity=".075" stroke-width="1.2"/>
+  <circle cx="1017" cy="108" r="142" fill="none" stroke="#82F7FC" stroke-opacity=".11" stroke-width="1.3"/>
+  <circle cx="1017" cy="108" r="202" fill="none" stroke="#82F7FC" stroke-opacity=".085" stroke-width="1.3"/>
+  <circle cx="1017" cy="108" r="270" fill="none" stroke="#82F7FC" stroke-opacity=".06" stroke-width="1.3"/>
+
+  <!-- top status/navigation line -->
+  <rect x="43" y="38" width="147" height="27" rx="13.5" fill="#0A2C35" fill-opacity=".89" stroke="#54D8E6" stroke-opacity=".38"/>
+  <circle cx="59" cy="51.5" r="4" fill="#00DDEB"/>
+  <text x="73" y="56" fill="#A0F6FA" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">ERG / ONLINE</text>
+  <text x="1154" y="56" text-anchor="end" fill="#D2E9F0" fill-opacity=".74" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.8">SYSTEMS  /  001</text>
+  <path d="M44 79 H1157" fill="none" stroke="#DDFBFF" stroke-opacity=".12"/>
+
+  <!-- hero left -->
+  <text x="52" y="145" fill="#7ACCD8" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4.1">DIGITAL CRAFT   /   HUMAN INTENT</text>
+  <text x="44" y="251" fill="#F1FBFF" font-family="'Segoe UI',Arial,sans-serif" font-size="94" font-weight="800" letter-spacing="-5">ERGODESU<tspan fill="url(#hot)">.</tspan></text>
+  <rect x="53" y="271" width="63" height="4" rx="2" fill="url(#hot)"/>
+  <text x="52" y="319" fill="#F0F9FC" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="500" letter-spacing=".2">Engineering the <tspan fill="#53E7F3">invisible.</tspan></text>
+  <text x="53" y="355" fill="#A3C4CF" font-family="'Segoe UI',Arial,sans-serif" font-size="16.5">Building the systems behind the interface.</text>
+  <text x="53" y="380" fill="#A3C4CF" font-family="'Segoe UI',Arial,sans-serif" font-size="16.5">Secure by design. Reliable by intention.</text>
+
+  <!-- subtle left info cluster -->
+  <g transform="translate(52 431)">
+    <rect width="152" height="37" rx="18.5" fill="#E6FFFF" fill-opacity=".095" stroke="#CCFAFE" stroke-opacity=".20"/>
+    <text x="76" y="23" text-anchor="middle" fill="#DAF4F8" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" letter-spacing="1.2">DEVELOP</text>
+    <rect x="163" width="155" height="37" rx="18.5" fill="#E6FFFF" fill-opacity=".095" stroke="#CCFAFE" stroke-opacity=".20"/>
+    <text x="240" y="23" text-anchor="middle" fill="#DAF4F8" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" letter-spacing="1.2">ARCHITECT</text>
+    <rect x="329" width="136" height="37" rx="18.5" fill="#E6FFFF" fill-opacity=".095" stroke="#CCFAFE" stroke-opacity=".20"/>
+    <text x="397" y="23" text-anchor="middle" fill="#DAF4F8" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" letter-spacing="1.2">SECURE</text>
+  </g>
+
+  <!-- glass terminal -->
+  <g filter="url(#shadow)">
+    <rect x="670" y="111" width="482" height="373" rx="25" fill="#020D13" fill-opacity=".59"/>
+    <rect x="670" y="111" width="482" height="373" rx="25" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.35"/>
+    <rect x="687" y="128" width="448" height="339" rx="18" fill="#06151E" fill-opacity=".36" stroke="#F6FFFF" stroke-opacity=".10"/>
+    <path d="M688 176H1134" stroke="#DFFAFF" stroke-opacity=".13"/>
+  </g>
+  <circle cx="710" cy="153" r="5" fill="#FF8498"/><circle cx="729" cy="153" r="5" fill="#FFD47A"/><circle cx="748" cy="153" r="5" fill="#6DDFBB"/>
+  <text x="908" y="159" text-anchor="middle" fill="#BDD7E2" font-family="'Consolas','Courier New',monospace" font-size="13" letter-spacing="1">ergodesu@workspace: ~</text>
+  <path d="M1092 151h17m-8.5 -8.5v17" stroke="#00DDEB" stroke-opacity=".55" stroke-width="1.5"/>
+
+  <g font-family="'Consolas','Courier New',monospace" font-size="17">
+    <text x="713" y="219" fill="#53E7F3">❯ <tspan fill="#DFF4F8">whoami</tspan></text>
+    <text x="744" y="247" fill="#A7C6D0">ergodesu</text>
+    <text x="713" y="297" fill="#53E7F3">❯ <tspan fill="#DFF4F8">cat focus.txt</tspan></text>
+    <text x="744" y="325" fill="#D7F4F8">applications <tspan fill="#00DDEB">/</tspan> identity</text>
+    <text x="744" y="353" fill="#D7F4F8">infrastructure <tspan fill="#00DDEB">/</tspan> security</text>
+    <text x="713" y="403" fill="#53E7F3">❯ <tspan fill="#DFF4F8">echo $MOTTO</tspan></text>
+    <text x="744" y="431" fill="#98F1EC">Build beyond the demo.</text>
+    <rect x="1018" y="416" width="9" height="17" fill="#00DDEB" opacity=".83"/>
+  </g>
+
+  <!-- baseline decorative metadata -->
+  <text x="53" y="514" fill="#83ADBA" font-family="'Consolas','Courier New',monospace" font-size="11" letter-spacing="1.5">DESIGNED WITH PURPOSE     //     ENGINEERED FOR CHANGE</text>
+  <text x="1143" y="514" text-anchor="end" fill="#82EAF3" font-family="'Consolas','Courier New',monospace" font-size="11" letter-spacing="1.3">00DDEB · 008EA9 · 06151E</text>
+  </g>
+  <rect x="4.5" y="4.5" width="1191" height="541" rx="27.5" fill="none" stroke="#71E5EE" stroke-opacity=".25"/>
+</svg>
